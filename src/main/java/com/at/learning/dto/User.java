@@ -4,5 +4,5 @@ import java.util.UUID;
 
 public class User {
 
-    public String id = UUID.randomUUID().toString();
+    public UUID id = UUID.randomUUID();
 }
